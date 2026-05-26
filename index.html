@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Diary, Part III</title>
+  <script data-goatcounter="https://steffenhuck.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #cdddf0;
+      --text: #1a2a3a;
+      --muted: #5a7a9a;
+      --max-width: 660px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'EB Garamond', Georgia, serif;
+      font-size: 22px;
+      line-height: 1.75;
+    }
+
+    .container {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 72px 32px 100px;
+      opacity: 0;
+      animation: fadeIn 1.8s ease forwards;
+      animation-delay: 0.3s;
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 64px;
+    }
+
+    .title {
+      font-size: clamp(2.16rem, 4.8vw, 3.12rem);
+      font-weight: 400;
+      letter-spacing: 0.22em;
+      color: #2a3f55;
+      text-transform: uppercase;
+      margin-bottom: 12px;
+    }
+
+    .subtitle {
+      font-size: 1rem;
+      font-style: italic;
+      font-weight: 400;
+      color: var(--muted);
+      letter-spacing: 0.08em;
+      margin-bottom: 16px;
+    }
+
+    .cast-name {
+      font-size: 1.32rem;
+      font-style: italic;
+      color: var(--text);
+      opacity: 0.6;
+      letter-spacing: 0.04em;
+    }
+
+    .stage {
+      font-style: italic;
+      color: var(--muted);
+      font-size: 0.92em;
+      margin-bottom: 52px;
+      line-height: 1.7;
+    }
+
+    .date {
+      font-size: 1em;
+      color: var(--text);
+      margin-bottom: 40px;
+      font-style: normal;
+    }
+
+    .monologue p {
+      margin-bottom: 28px;
+      color: var(--text);
+    }
+
+    .monologue p:last-child {
+      margin-bottom: 0;
+    }
+
+    .signature {
+      text-align: center;
+      margin-top: 80px;
+      font-size: 0.85rem;
+      letter-spacing: 0.2em;
+    }
+
+    .signature a {
+      text-decoration: none;
+      color: var(--muted);
+      font-style: normal;
+      transition: color 0.3s ease;
+    }
+
+    .signature a:hover {
+      color: var(--text);
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(12px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    @media (max-width: 600px) {
+      body { font-size: 20px; }
+      .container { padding: 52px 24px 80px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <div class="header">
+      <div class="title">The Diary, Part III</div>
+      <div class="cast-name">The First Student</div>
+    </div>
+
+    <p class="stage">(The room of the First and the New Student. Midday. The First Student is sitting at the desk, alone.)</p>
+
+    <div class="date">Monday, the&mdash;</div>
+
+    <div class="monologue">
+
+      <p>I skipped lunch. My first opportunity to be finally alone. Weekend lunches are not an option. They are communal and questions would be asked.</p>
+
+      <p>I wished he wouldn&rsquo;t have told me. How could he? How could he put himself in such danger?</p>
+
+      <p>I tried not to wink when she was giving me this glance. But now it&rsquo;s in the open. She knows that I know &hellip; She knows he told me.</p>
+
+      <p>He is at her mercy now.</p>
+
+      <p>When I see her with N, she always seems so tender. I don&rsquo;t get her.</p>
+
+      <p>At all.</p>
+
+      <p>Marrakesh was such a joy. I would have preferred to begin this entry with it. Suddenly, no words any longer. Just bodies. Just pleasure. Perhaps &ndash; love?</p>
+
+      <p>Maybe it is. It does feel like it. Maybe there is no more to it.</p>
+
+      <p>Then the Russian came.</p>
+
+      <p>The girl was &hellip; I don&rsquo;t know how to say it. She was pretty, I thought. But maybe I&rsquo;m not the best judge of this and my feeble observation is leading in the wrong direction. It certainly is. I&rsquo;m tempted to strike the last few lines out. But let&rsquo;s have this diary unedited.</p>
+
+      <p>She was &hellip; she was honest, I think. That&rsquo;s it. She was genuine. But she also was&hellip;</p>
+
+      <p>She is past tense now.</p>
+
+      <p>He asked me whether it might have been fake. Bless him.</p>
+
+      <p>The dinner with Son of V&mdash; was hard to stomach. Perhaps this tells me more about who I still am than about them. I have to harden myself. But I also have to protect him.</p>
+
+      <p>Can I square this circle?</p>
+
+    </div>
+
+    <div class="signature">
+      <a href="https://steffenhuck.github.io/">steffen huck</a>
+    </div>
+
+  </div>
+</body>
+</html>
